@@ -15,7 +15,7 @@ const CardTitle =() => {
                 image={photoEtienne}
             />
             <CardContent>
-                <Title name="Etienne Trzpit" description="Développeur web" />
+                <Title name="Etienne Trzpit" description="Étudiant à OpenClassrooms dans le cadre d'une formation d'Intégrateur Web" />
             </CardContent>
       </Card>
     );
