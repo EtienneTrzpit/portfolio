@@ -5,8 +5,7 @@ import Background from './components/Background';
 
 const App = () => {
     return (
-        <div className='main'>
-            <Background />
+        <div>
             <Typography variant="h1">Hello, World!</Typography>
         </div>
     );
