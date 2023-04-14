@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
 import { Typography } from '@mui/material';
-import Background from './components/Background';
+import Title from './components/Title';
 
 const App = () => {
     return (
         <div>
-            <Typography variant="h1">Hello, World!</Typography>
+            <Title />
         </div>
     );
 }
