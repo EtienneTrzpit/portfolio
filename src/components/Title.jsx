@@ -1,11 +1,15 @@
 import { Typography } from '@mui/material';
 import React from 'react'
 
-const Title =() => {
+const Title =(props) => {
     return(
         <>
-            <Typography variant="h1">Etienne Trzpit</Typography>
-            <Typography variant="h2">Développeur web</Typography>
+            <Typography gutterBottom variant="h5" component="div">
+                {props.name}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+                {props.description}
+            </Typography>
         </>
     );
 }

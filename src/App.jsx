@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.scss';
 import NavBar from './components/NavBar';
-import Title from './components/Title';
+import CardTitle from './components/CardTitle';
 
 const App = () => {
     return (
         <div>
             <NavBar />
-            <Title />
+            <CardTitle />
         </div>
     );
 }
