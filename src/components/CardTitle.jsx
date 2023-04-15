@@ -7,7 +7,7 @@ import React from 'react';
 
 const CardTitle =() => {
     return(
-        <Card sx={{ maxWidth: 345 }}>
+        <Card sx={{ maxWidth: 345 }} className="h-50">
             <CardMedia
                 component="img"
                 alt="photo Etienne Trzpit"
