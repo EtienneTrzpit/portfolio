@@ -10,7 +10,15 @@ const App = () => {
             <NavBar />
             <div className="main">          
                 <CardTitle />         
-                <div className="projets {/*alignement*/}d-flex justify-content-between">
+                <div className="projets {/*alignement*/}d-flex justify-content-between d-flex flex-wrap">
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
+                    <Stepper />
                     <Stepper />
                     <Stepper />
                 </div>
