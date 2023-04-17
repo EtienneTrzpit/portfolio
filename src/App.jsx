@@ -3,11 +3,17 @@ import './App.scss';
 import NavBar from './components/NavBar';
 import CardTitle from './components/CardTitle';
 import Stepper from './components/Stepper';
+import { Route, Routes } from 'react-router-dom';
 
 const App = () => {
     return (
         <div>
             <NavBar />
+            <Routes>
+                <Route path='./components/APropos.jsx' element={<APropos />} />
+                <Route path='./components/SavoirFaire.jsx' element={<SavoirFaire />} />
+                <Route path='./components/Contact.jsx' element={<Contact />} />
+            </Routes>
             <div className="main">          
                 <CardTitle />         
                 <div className="projets {/*alignement*/} d-flex flex-wrap">
@@ -20,7 +26,7 @@ const App = () => {
                     <Stepper />
                     <Stepper />
                     <Stepper />
-                    <Stepper />
+                    <Stepper />                   
                 </div>
             </div>
             
