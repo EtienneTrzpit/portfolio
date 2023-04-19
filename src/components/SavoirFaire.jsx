@@ -2,10 +2,10 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Paper from '@mui/material/Paper';
 
-const APropos =() => {
+const SavoirFaire =() => {
     return(
         <>
-            <Box className='apropos'
+            <Box className="apropos"
                 sx={{
                 display: 'flex',
                 flexWrap: 'wrap', '& > :not(style)': {
@@ -21,4 +21,4 @@ const APropos =() => {
     );
 }
 
-export default APropos;
+export default SavoirFaire;

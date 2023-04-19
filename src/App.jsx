@@ -4,6 +4,9 @@ import NavBar from './components/NavBar';
 import CardTitle from './components/CardTitle';
 import Stepper from './components/Stepper';
 import { Route, Routes } from 'react-router-dom';
+import APropos from './components/APropos';
+import SavoirFaire from './components/SavoirFaire';
+import Contact from './components/Contact';
 
 const App = () => {
     return (
